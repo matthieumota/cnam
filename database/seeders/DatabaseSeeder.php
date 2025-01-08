@@ -19,21 +19,21 @@ class DatabaseSeeder extends Seeder
             'name' => 'Pain de campagne',
             'price' => 3.50,
             'description' => 'Un délicieux pain rustique avec une croûte croustillante.',
-            'image' => 'https://cdn.pixabay.com/photo/2016/10/27/22/52/bread-1776746_960_720.jpg',
+            'image' => 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFpbnxlbnwwfHwwfHx8MA%3D%3D',
         ]);
 
         Bread::create([
             'name' => 'Baguette tradition',
             'price' => 1.20,
             'description' => 'Une baguette classique avec une mie légère et aérée.',
-            'image' => 'https://cdn.pixabay.com/photo/2014/11/03/16/37/baguettes-515728_960_720.jpg',
+            'image' => 'https://images.unsplash.com/photo-1486887396153-fa416526c108?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFpbnxlbnwwfHwwfHx8MA%3D%3D',
         ]);
 
         Bread::create([
             'name' => 'Pain complet',
             'price' => 2.80,
             'description' => 'Un pain complet riche en fibres, idéal pour la santé.',
-            'image' => 'https://cdn.pixabay.com/photo/2017/08/07/15/25/bread-2607213_960_720.jpg',
+            'image' => 'https://images.unsplash.com/photo-1521471109507-43d61bb345dd?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFpbnxlbnwwfHwwfHx8MA%3D%3D',
         ]);
     }
 }

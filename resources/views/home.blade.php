@@ -18,6 +18,7 @@
                 <div>
                     <h2>{{ $bread->name }}</h2>
                     <p>{{ $bread->price }} €</p>
+                    <img src="{{ $bread->image }}" alt="{{ $bread->name }}">
                 </div>
             @endforeach
         </div>
